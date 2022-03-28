@@ -1,0 +1,32 @@
+body{
+    width:600px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.question-space{
+    display:flex;
+    flex-direction:column;
+    gap:3rem;
+}
+
+.question{
+    display:flex;
+    flex-direction:column;
+    gap:0.25rem;
+    
+}
+
+.question>*{
+    width:100%;
+}
+
+.wrong-option{
+    background-color:red;
+}
+
+.correct-option{
+    background-color:darkgreen;
+}
